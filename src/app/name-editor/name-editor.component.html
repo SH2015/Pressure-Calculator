@@ -1,0 +1,24 @@
+<label>
+  Input temprature:
+  <input type="number"  [(value)]="name" >
+  Input Pressure :
+    <input type="number"  [(ngModel)]= "pressure">
+</label>
+
+
+
+<p>
+  Value: {{ name.value }}
+</p>
+
+
+<p>
+  <button (click)="updateName()">Update Name</button>
+</p>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
